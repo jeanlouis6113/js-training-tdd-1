@@ -9,6 +9,20 @@
 // Your code:
 
 //* Begin of tests
+
+//
+// * Crée une fonction `id` // qui // prend un // argument et // le renvoie
+ 
+ // @notions // Fonctions
+ //
+
+// Votre code:
+const id = function (assert){
+    return assert;
+}
+
+
+// * Début des tests
 const assert = require('assert');
 
 assert.strictEqual(typeof id, 'function');

@@ -9,6 +9,16 @@
 // Your code:
 
 //* Begin of tests
+
+//Créez une variable constante nommée «arr» qui est un tableau contenant les valeurs 4 et «2»
+
+//@notions Data-Structures
+//
+
+// Votre code:
+
+const arr = [4, '2'];
+// * Début des tests
 const assert = require('assert');
 
 assert.strictEqual(Array.isArray(arr), true);

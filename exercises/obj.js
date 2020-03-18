@@ -10,6 +10,23 @@
 // Your code:
 
 //* Begin of tests
+
+//*
+//* Créer un objet `obj` qui a une propriété pour chaque valeur primitive
+//* un peu comme dans primitive.js
+//*
+//* Fonctions @notions, opérateurs
+//* /
+const obj = {
+
+    str: '1337',
+    num: 42,
+    bool: false,
+    undef: undefined
+};
+// Votre code:
+
+// * Début des tests
 const assert = require('assert');
 
 assert.strictEqual(typeof obj, 'object');
